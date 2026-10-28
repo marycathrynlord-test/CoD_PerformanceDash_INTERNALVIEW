@@ -3267,32 +3267,677 @@
       "name": "Reasons for citations closure",
       "level": "Program",
       "attachTo": "p75",
-      "unit": "percent",
-      "decimals": 2,
+      "unit": "number",
+      "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": true,
       "frequency": "Every year",
       "owner": "Parking Manager",
+      "source": "Parking citation closed reasons, yearly (Citation_Metrics_and_Data_.xlsx, 2018–2025)",
+      "description": "Parking citations closed without payment each year, by the reason they were closed (for example a warning, a registration issue or a meter malfunction).",
+      "footnote": "\"Paid Wrong Plate (Mobile)\" was first tracked in 2025. 2026 is not yet entered. No target has been set.",
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 0,
+      "series": [
+        {
+          "period": "2018",
+          "value": 2860,
+          "status": null
+        },
+        {
+          "period": "2019",
+          "value": 2824,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 2104,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 2723,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 2865,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 2533,
+          "status": null
+        },
+        {
+          "period": "2024",
+          "value": 2023,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 2356,
+          "status": null
+        }
+      ],
+      "segments": [
+        {
+          "label": "Warnings",
+          "value": 1136
+        },
+        {
+          "label": "City Admin Void",
+          "value": 73
+        },
+        {
+          "label": "Court Summons",
+          "value": 96
+        },
+        {
+          "label": "Equipment Malfunction",
+          "value": 138
+        },
+        {
+          "label": "Handicap Permit",
+          "value": 93
+        },
+        {
+          "label": "La Plata County Sheriff",
+          "value": 6
+        },
+        {
+          "label": "Meter Malfunction",
+          "value": 29
+        },
+        {
+          "label": "Officer/Operator Error",
+          "value": 235
+        },
+        {
+          "label": "Registration",
+          "value": 178
+        },
+        {
+          "label": "Review Outcome Dismissed",
+          "value": 269
+        },
+        {
+          "label": "Unable to Locate Owner",
+          "value": 0
+        },
+        {
+          "label": "Paid Wrong Plate Mobile",
+          "value": 103
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Warnings",
+          "series": [
+            {
+              "period": "2018",
+              "value": 1420,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 1300,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 1012,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 1500,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 1434,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 1271,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 1004,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 1136,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "City Admin Void",
+          "series": [
+            {
+              "period": "2018",
+              "value": 123,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 101,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 53,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 88,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 85,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 108,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 63,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 73,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Court Summons",
+          "series": [
+            {
+              "period": "2018",
+              "value": 326,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 376,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 193,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 259,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 321,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 299,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 148,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 96,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Equipment Malfunction",
+          "series": [
+            {
+              "period": "2018",
+              "value": 37,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 51,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 30,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 57,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 106,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 103,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 102,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 138,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Handicap Permit",
+          "series": [
+            {
+              "period": "2018",
+              "value": 147,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 145,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 99,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 61,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 74,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 87,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 58,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 93,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "La Plata County Sheriff",
+          "series": [
+            {
+              "period": "2018",
+              "value": 24,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 13,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 5,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 13,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 14,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 8,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 10,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 6,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Meter Malfunction",
+          "series": [
+            {
+              "period": "2018",
+              "value": 53,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 80,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 181,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 54,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 31,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 54,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 70,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 29,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Officer/Operator Error",
+          "series": [
+            {
+              "period": "2018",
+              "value": 232,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 157,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 72,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 86,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 156,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 155,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 170,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 235,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Registration",
+          "series": [
+            {
+              "period": "2018",
+              "value": 402,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 469,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 326,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 424,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 364,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 314,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 168,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 178,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Review Outcome Dismissed",
+          "series": [
+            {
+              "period": "2018",
+              "value": 34,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 68,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 48,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 77,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 205,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 29,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 219,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 269,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Unable to Locate Owner",
+          "series": [
+            {
+              "period": "2018",
+              "value": 62,
+              "status": null
+            },
+            {
+              "period": "2019",
+              "value": 64,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 85,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 104,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 75,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 105,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 11,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 0,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Paid Wrong Plate Mobile",
+          "series": [
+            {
+              "period": "2025",
+              "value": 103,
+              "status": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TRAN-COMPSCORE",
       "name": "Parking compliance count for the central business district",
       "level": "Program",
       "attachTo": "p75",
-      "unit": "number",
-      "decimals": 2,
+      "unit": "percent",
+      "decimals": 1,
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": true,
       "frequency": "Every year",
       "owner": "Parking Manager",
-      "status": null,
-      "pending": true,
-      "series": []
+      "source": "Downtown on-street meter compliance counts (Meter_Compliance_Count.xlsx, about five counts a month, 2021–Sep 2026)",
+      "description": "Share of cars parked at downtown meters that had paid or were exempt (accessible, government or free spaces) when counted. Higher is better.",
+      "footnote": "Target: 95% compliance; 100% is not realistic. Each year combines all counts taken that year, about 60 count days. 2026 covers January–September only (year to date).",
+      "status": "on-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 0,
+      "series": [
+        {
+          "period": "2021",
+          "value": 95.4,
+          "target": 95,
+          "status": "on-track"
+        },
+        {
+          "period": "2022",
+          "value": 95.8,
+          "target": 95,
+          "status": "on-track"
+        },
+        {
+          "period": "2023",
+          "value": 95.7,
+          "target": 95,
+          "status": "on-track"
+        },
+        {
+          "period": "2024",
+          "value": 95.2,
+          "target": 95,
+          "status": "on-track"
+        },
+        {
+          "period": "2025",
+          "value": 95.2,
+          "target": 95,
+          "status": "on-track"
+        },
+        {
+          "period": "2026",
+          "value": 95.8,
+          "target": 95,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segments": []
     },
     {
       "id": "TRAN-CRASHDATA",
@@ -3420,14 +4065,14 @@
       "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
-      "drivesStatus": false,
+      "drivesStatus": true,
       "frequency": "Every year",
       "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
       "description": "Fare dollars collected on the fixed routes (Loop and Trolley) each year.",
-      "footnote": "Fixed routes only; Dial-A-Ride fares were not reported. August 2022 was fare-free, so no fares were collected that month. 2026 covers January–September only (year to date). No target has been set.",
-      "status": null,
-      "onTrackWithinPct": 5,
-      "offTrackBeyondPct": 15,
+      "footnote": "Target: higher than the previous year. At or above last year shows On Track; below it shows Off Track. Fixed routes only; Dial-A-Ride fares were not reported. August 2022 was fare-free, so no fares were collected that month. 2026 is January–September and is compared with the same months of 2025.",
+      "status": "off-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 0,
       "series": [
         {
           "period": "2019",
@@ -3437,38 +4082,45 @@
         {
           "period": "2020",
           "value": 80719.67,
-          "status": null
+          "target": 128105.87,
+          "status": "off-track"
         },
         {
           "period": "2021",
           "value": 94377.26,
-          "status": null
+          "target": 80719.67,
+          "status": "on-track"
         },
         {
           "period": "2022",
           "value": 98713.46,
-          "status": null
+          "target": 94377.26,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 97307.34,
-          "status": null
+          "target": 98713.46,
+          "status": "off-track"
         },
         {
           "period": "2024",
           "value": 96487.15,
-          "status": null
+          "target": 97307.34,
+          "status": "off-track"
         },
         {
           "period": "2025",
           "value": 88692.84,
-          "status": null
+          "target": 96487.15,
+          "status": "off-track"
         },
         {
           "period": "2026",
           "value": 56579.67,
-          "status": null,
-          "note": "2026 covers January–September only (year to date)."
+          "target": 61226.87,
+          "status": "off-track",
+          "note": "2026 covers January–September only (year to date). Target is January–September 2025 ($61,227 in fares)."
         }
       ],
       "segments": [
@@ -3715,14 +4367,14 @@
       "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
-      "drivesStatus": false,
+      "drivesStatus": true,
       "frequency": "Every year",
       "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
       "description": "Fixed-route rides (Loop and Trolley) each year by how the rider paid: bus pass, Fort Lewis College ID, free ride or cash fare.",
-      "footnote": "Fixed routes only; Dial-A-Ride payment data was not reported. August 2022 was fare-free. From June 2022 to March 2024 the Loop cash-fare counts are higher than the Loop rider counts, so those years are under review. 2026 covers January–September only (year to date). No target has been set.",
-      "status": null,
-      "onTrackWithinPct": 5,
-      "offTrackBeyondPct": 15,
+      "footnote": "Target: higher than the previous year. At or above last year shows On Track; below it shows Off Track. Fixed routes only; Dial-A-Ride payment data was not reported. August 2022 was fare-free. From June 2022 to March 2024 the Loop cash-fare counts are higher than the Loop rider counts, so 2022–2024 results are under review. 2026 is January–September and is compared with the same months of 2025.",
+      "status": "on-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 0,
       "series": [
         {
           "period": "2019",
@@ -3732,38 +4384,45 @@
         {
           "period": "2020",
           "value": 216141,
-          "status": null
+          "target": 347053,
+          "status": "off-track"
         },
         {
           "period": "2021",
           "value": 221963,
-          "status": null
+          "target": 216141,
+          "status": "on-track"
         },
         {
           "period": "2022",
           "value": 387576,
-          "status": null
+          "target": 221963,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 568442,
-          "status": null
+          "target": 387576,
+          "status": "on-track"
         },
         {
           "period": "2024",
           "value": 499037,
-          "status": null
+          "target": 568442,
+          "status": "off-track"
         },
         {
           "period": "2025",
           "value": 436514,
-          "status": null
+          "target": 499037,
+          "status": "off-track"
         },
         {
           "period": "2026",
           "value": 344845,
-          "status": null,
-          "note": "2026 covers January–September only (year to date)."
+          "target": 340695,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date). Target is January–September 2025 (340,695 rides)."
         }
       ],
       "segments": [
@@ -3984,14 +4643,14 @@
       "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
-      "drivesStatus": false,
+      "drivesStatus": true,
       "frequency": "Every year",
       "source": "Durango Transit daily ridership counts by route (Route_Ridership.xlsx, Jan 2019–Sep 2026)",
       "description": "Rides on each Durango Transit fixed route each year, added up from daily counts. Higher numbers mean more people are riding.",
-      "footnote": "Fixed routes only; paratransit and microtransit are counted in Total Transit Ridership. Crestview / 160 W began in March 2022 and Mercy / Three Springs in August 2026. 2026 covers January–September only (year to date). No target has been set.",
-      "status": null,
-      "onTrackWithinPct": 5,
-      "offTrackBeyondPct": 15,
+      "footnote": "Fixed routes only; paratransit and microtransit are counted in Total Transit Ridership. Target: at least 3% more rides than the previous year (the goal is 3–5% growth a year). Growth under 3% shows At Risk; fewer rides than the year before shows Off Track. Benchmark: the state target of 6% growth a year. Crestview / 160 W began in March 2022 and Mercy / Three Springs in August 2026. 2026 is January–September and is compared with the same months of 2025.",
+      "status": "on-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 3,
       "series": [
         {
           "period": "2019",
@@ -4001,38 +4660,52 @@
         {
           "period": "2020",
           "value": 231159,
-          "status": null
+          "target": 382205,
+          "benchmark": 393337,
+          "status": "off-track"
         },
         {
           "period": "2021",
           "value": 241004,
-          "status": null
+          "target": 238094,
+          "benchmark": 245029,
+          "status": "on-track"
         },
         {
           "period": "2022",
           "value": 342365,
-          "status": null
+          "target": 248234,
+          "benchmark": 255464,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 425822,
-          "status": null
+          "target": 352636,
+          "benchmark": 362907,
+          "status": "on-track"
         },
         {
           "period": "2024",
           "value": 438647,
-          "status": null
+          "target": 438597,
+          "benchmark": 451371,
+          "status": "on-track"
         },
         {
           "period": "2025",
           "value": 437728,
-          "status": null
+          "target": 451806,
+          "benchmark": 464966,
+          "status": "off-track"
         },
         {
           "period": "2026",
           "value": 364446,
-          "status": null,
-          "note": "2026 covers January–September only (year to date)."
+          "target": 347302,
+          "benchmark": 357417,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date). Target and benchmark compare with January–September 2025 (337,186 rides)."
         }
       ],
       "segments": [
@@ -4356,14 +5029,14 @@
       "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
-      "drivesStatus": false,
+      "drivesStatus": true,
       "frequency": "Every year",
       "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
       "description": "Dial-A-Ride (paratransit) trips delivered each year, broken down by rider type: under or over 60, and with or without a disability.",
-      "footnote": "The total is the official monthly trip count. The rider-type counts do not always add up to it (for example 2019 and 2020), so the segments are shown as reported. 2026 covers January–September only (year to date). No target has been set.",
-      "status": null,
-      "onTrackWithinPct": 5,
-      "offTrackBeyondPct": 15,
+      "footnote": "Target: at least 3% more trips than the previous year (the goal is 3–5% growth a year). Growth under 3% shows At Risk; fewer trips than the year before shows Off Track. Benchmark: the previous year's trips. The total is the official monthly trip count; the rider-type counts do not always add up to it (for example 2019 and 2020), so the segments are shown as reported. 2026 is January–September and is compared with the same months of 2025.",
+      "status": "on-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 3,
       "series": [
         {
           "period": "2019",
@@ -4373,38 +5046,52 @@
         {
           "period": "2020",
           "value": 2587,
-          "status": null
+          "target": 5706,
+          "benchmark": 5540,
+          "status": "off-track"
         },
         {
           "period": "2021",
           "value": 2249,
-          "status": null
+          "target": 2665,
+          "benchmark": 2587,
+          "status": "off-track"
         },
         {
           "period": "2022",
           "value": 2369,
-          "status": null
+          "target": 2316,
+          "benchmark": 2249,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 2479,
-          "status": null
+          "target": 2440,
+          "benchmark": 2369,
+          "status": "on-track"
         },
         {
           "period": "2024",
           "value": 3142,
-          "status": null
+          "target": 2553,
+          "benchmark": 2479,
+          "status": "on-track"
         },
         {
           "period": "2025",
           "value": 3455,
-          "status": null
+          "target": 3236,
+          "benchmark": 3142,
+          "status": "on-track"
         },
         {
           "period": "2026",
           "value": 3343,
-          "status": null,
-          "note": "2026 covers January–September only (year to date)."
+          "target": 2788,
+          "benchmark": 2707,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date). Target and benchmark compare with January–September 2025 (2,707 trips)."
         }
       ],
       "segments": [
@@ -4625,18 +5312,66 @@
         "ks14"
       ],
       "unit": "percent",
-      "decimals": 2,
+      "decimals": 1,
       "higherIsBetter": false,
       "compareTo": "target",
       "drivesStatus": true,
       "frequency": "Every year",
       "owner": "Parking Manager",
+      "source": "Transit Center lot vacancy counts, monthly (transit_center_vacancies.xlsx, 2019–2025)",
+      "description": "Average share of Transit Center lot spaces occupied each year. Lower numbers mean more open spaces.",
+      "footnote": "Target: keep occupancy at or below 85%, the point where a lot is effectively full; above 85% changes how parking is managed. Vacancy is 100% minus occupancy. 2026 counts are not yet entered.",
       "gaugeKeyServices": [
         "ks14"
       ],
-      "status": null,
-      "pending": true,
-      "series": []
+      "status": "on-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 0,
+      "series": [
+        {
+          "period": "2019",
+          "value": 52,
+          "target": 85,
+          "status": "on-track"
+        },
+        {
+          "period": "2020",
+          "value": 32.3,
+          "target": 85,
+          "status": "on-track"
+        },
+        {
+          "period": "2021",
+          "value": 33.9,
+          "target": 85,
+          "status": "on-track"
+        },
+        {
+          "period": "2022",
+          "value": 36.7,
+          "target": 85,
+          "status": "on-track"
+        },
+        {
+          "period": "2023",
+          "value": 34.7,
+          "target": 85,
+          "status": "on-track"
+        },
+        {
+          "period": "2024",
+          "value": 37.5,
+          "target": 85,
+          "status": "on-track"
+        },
+        {
+          "period": "2025",
+          "value": 36,
+          "target": 85,
+          "status": "on-track"
+        }
+      ],
+      "segments": []
     },
     {
       "id": "TRAN-WINDSHIELDRATE",
@@ -4644,15 +5379,57 @@
       "level": "Program",
       "attachTo": "p75",
       "unit": "percent",
-      "decimals": 2,
+      "decimals": 1,
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": true,
       "frequency": "Every year",
       "owner": "Parking Manager",
-      "status": null,
-      "pending": true,
-      "series": []
+      "source": "Parking citation tracking, monthly (Citation_Metrics_and_Data_.xlsx, 2021–Sep 2026)",
+      "description": "Citations paid each year as a share of citations issued that year.",
+      "footnote": "Target: a higher payment rate than the previous year. At or above last year shows On Track; below it shows Off Track. A benchmark is still to be checked. Payments made in a year can include citations issued the year before, so the rate is approximate. 2026 is January–September.",
+      "status": "on-track",
+      "onTrackWithinPct": 0,
+      "offTrackBeyondPct": 0,
+      "series": [
+        {
+          "period": "2021",
+          "value": 77.9,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 82.9,
+          "target": 77.9,
+          "status": "on-track"
+        },
+        {
+          "period": "2023",
+          "value": 83.2,
+          "target": 82.9,
+          "status": "on-track"
+        },
+        {
+          "period": "2024",
+          "value": 85.5,
+          "target": 83.2,
+          "status": "on-track"
+        },
+        {
+          "period": "2025",
+          "value": 80.4,
+          "target": 85.5,
+          "status": "off-track"
+        },
+        {
+          "period": "2026",
+          "value": 82.4,
+          "target": 80.4,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segments": []
     },
     {
       "id": "PIO-PUBCOMMENT",
@@ -5168,8 +5945,9 @@
       "compareTo": "target",
       "drivesStatus": true,
       "frequency": "Every year",
+      "source": "Durango Transit official annual ridership; fixed-route and paratransit breakdown from the monthly ridership report (Ridership_Demographics.xlsx)",
       "description": "Total rides on Durango Transit each fiscal year, including fixed routes, paratransit and DuranGO! microtransit.",
-      "footnote": "Target: at least 3% more rides than the previous year (the goal is 3–5% growth a year, in line with the 2–5% industry standard). Growth under 3% shows At Risk; fewer rides than the year before shows Off Track. The 7.7% increase from 2023 to 2024 is mostly due to the evening DuranGO! microtransit expansion.",
+      "footnote": "Target: at least 3% more rides than the previous year (the goal is 3–5% growth a year, in line with the 2–5% industry standard). Growth under 3% shows At Risk; fewer rides than the year before shows Off Track. The 7.7% increase from 2023 to 2024 is mostly due to the evening DuranGO! microtransit expansion. Fixed-route and paratransit rides come from the Durango Transit monthly ridership report. \"Other\" is the official total minus those two, which is mostly DuranGO! microtransit but may also include small differences between sources.",
       "gaugeKeyServices": [
         "ks14"
       ],
@@ -5213,7 +5991,127 @@
           "status": "at-risk"
         }
       ],
-      "segments": []
+      "segments": [
+        {
+          "label": "Fixed route",
+          "value": 443275
+        },
+        {
+          "label": "Paratransit",
+          "value": 3455
+        },
+        {
+          "label": "Other",
+          "value": 23293
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Fixed route",
+          "series": [
+            {
+              "period": "2020",
+              "value": 229195,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 241740,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 322883,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 421230,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 437758,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 443275,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Paratransit",
+          "series": [
+            {
+              "period": "2020",
+              "value": 2587,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 2249,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 2369,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 2479,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 3142,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 3455,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "series": [
+            {
+              "period": "2020",
+              "value": 1016,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 0,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 4491,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 1535,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 17161,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 23293,
+              "status": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "PR-PARKBUDGETACRE",
@@ -5820,13 +6718,12 @@
         ]
       },
       "g4": {
-        "meeting": 4,
-        "withResult": 5,
-        "percent": 80,
+        "meeting": 5,
+        "withResult": 6,
+        "percent": 83,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
           "TRAN-DEPENDENCY",
-          "TRAN-VACRATE",
           "IT-TIXSLA",
           "IT-LIAISONSURV"
         ],
@@ -6064,13 +6961,12 @@
         ]
       },
       "ob10": {
-        "meeting": 1,
-        "withResult": 2,
-        "percent": 50,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-DEPENDENCY",
-          "TRAN-VACRATE"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
@@ -6118,13 +7014,12 @@
         ]
       },
       "ob15": {
-        "meeting": 1,
-        "withResult": 2,
-        "percent": 50,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-DEPENDENCY",
-          "TRAN-VACRATE"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
@@ -6325,13 +7220,12 @@
         ]
       },
       "ws5": {
-        "meeting": 1,
-        "withResult": 2,
-        "percent": 50,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-DEPENDENCY",
-          "TRAN-VACRATE"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
@@ -6531,13 +7425,12 @@
         "kpis": []
       },
       "ks14": {
-        "meeting": 1,
-        "withResult": 2,
-        "percent": 50,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-DEPENDENCY",
-          "TRAN-VACRATE"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
