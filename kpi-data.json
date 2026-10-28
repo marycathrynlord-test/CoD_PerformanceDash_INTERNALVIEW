@@ -2463,7 +2463,7 @@
         "p37"
       ],
       "unit": "number",
-      "decimals": 2,
+      "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": true,
@@ -3416,14 +3416,167 @@
       "name": "Farebox Revenue",
       "level": "Program",
       "attachTo": "p74",
-      "unit": "number",
+      "unit": "currency",
       "decimals": 0,
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": false,
+      "frequency": "Every year",
+      "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
+      "description": "Fare dollars collected on the fixed routes (Loop and Trolley) each year.",
+      "footnote": "Fixed routes only; Dial-A-Ride fares were not reported. August 2022 was fare-free, so no fares were collected that month. 2026 covers January–September only (year to date). No target has been set.",
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [
+        {
+          "period": "2019",
+          "value": 128105.87,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 80719.67,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 94377.26,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 98713.46,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 97307.34,
+          "status": null
+        },
+        {
+          "period": "2024",
+          "value": 96487.15,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 88692.84,
+          "status": null
+        },
+        {
+          "period": "2026",
+          "value": 56579.67,
+          "status": null,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Loop",
+          "value": 34560.25,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Trolley",
+          "value": 22019.42,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Loop",
+          "series": [
+            {
+              "period": "2019",
+              "value": 54234.96,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 36117.08,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 43968.72,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 48660.14,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 53121.05,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 54104.75,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 51880.31,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 34560.25,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Trolley",
+          "series": [
+            {
+              "period": "2019",
+              "value": 73870.91,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 44602.59,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 50408.54,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 50053.32,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 44186.29,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 42382.4,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 36812.53,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 22019.42,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TRAN-METDEMAND",
@@ -3449,9 +3602,109 @@
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": false,
+      "frequency": "Every year",
+      "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
+      "description": "Vehicle miles and vehicle hours run each year across the Loop, Trolley and Dial-A-Ride.",
+      "footnote": "Shown as two segments, miles and hours. Cost data is not yet included. Recorded Trolley hours drop by about half from 2023, which may be a change in how hours are counted. 2026 covers January–September only (year to date). No target has been set.",
       "status": null,
-      "pending": true,
-      "series": []
+      "segmentsOnly": true,
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [],
+      "segmentSeries": [
+        {
+          "label": "Vehicle miles",
+          "series": [
+            {
+              "period": "2019",
+              "value": 337763,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 321894,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 405442,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 459926,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 493315,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 503452,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 503683,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 393750,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Vehicle hours",
+          "series": [
+            {
+              "period": "2019",
+              "value": 24764,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 23239,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 27284,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 30223,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 27288,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 29281,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 31064,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 23583,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TRAN-PASSTYPE",
@@ -3463,9 +3716,264 @@
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": false,
+      "frequency": "Every year",
+      "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
+      "description": "Fixed-route rides (Loop and Trolley) each year by how the rider paid: bus pass, Fort Lewis College ID, free ride or cash fare.",
+      "footnote": "Fixed routes only; Dial-A-Ride payment data was not reported. August 2022 was fare-free. From June 2022 to March 2024 the Loop cash-fare counts are higher than the Loop rider counts, so those years are under review. 2026 covers January–September only (year to date). No target has been set.",
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [
+        {
+          "period": "2019",
+          "value": 347053,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 216141,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 221963,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 387576,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 568442,
+          "status": null
+        },
+        {
+          "period": "2024",
+          "value": 499037,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 436514,
+          "status": null
+        },
+        {
+          "period": "2026",
+          "value": 344845,
+          "status": null,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Bus pass",
+          "value": 118354,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Fort Lewis College",
+          "value": 15601,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Free ride",
+          "value": 149589,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Cash fare",
+          "value": 61301,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Bus pass",
+          "series": [
+            {
+              "period": "2019",
+              "value": 139076,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 94280,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 91888,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 125614,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 147810,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 179328,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 176140,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 118354,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Fort Lewis College",
+          "series": [
+            {
+              "period": "2019",
+              "value": 37888,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 17856,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 18391,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 20597,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 15741,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 8572,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 19849,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 15601,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Free ride",
+          "series": [
+            {
+              "period": "2019",
+              "value": 35232,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 17358,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 13235,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 53766,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 116264,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 164734,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 145148,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 149589,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Cash fare",
+          "series": [
+            {
+              "period": "2019",
+              "value": 134857,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 86647,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 98449,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 187599,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 288627,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 146403,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 95377,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 61301,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TRAN-RIDERSHIP",
@@ -3477,9 +3985,367 @@
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": false,
+      "frequency": "Every year",
+      "source": "Durango Transit daily ridership counts by route (Route_Ridership.xlsx, Jan 2019–Sep 2026)",
+      "description": "Rides on each Durango Transit fixed route each year, added up from daily counts. Higher numbers mean more people are riding.",
+      "footnote": "Fixed routes only; paratransit and microtransit are counted in Total Transit Ridership. Crestview / 160 W began in March 2022 and Mercy / Three Springs in August 2026. 2026 covers January–September only (year to date). No target has been set.",
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [
+        {
+          "period": "2019",
+          "value": 371073,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 231159,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 241004,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 342365,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 425822,
+          "status": null
+        },
+        {
+          "period": "2024",
+          "value": 438647,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 437728,
+          "status": null
+        },
+        {
+          "period": "2026",
+          "value": 364446,
+          "status": null,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Main Ave Trolley",
+          "value": 125843,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Fort Lewis",
+          "value": 73935,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Special Service",
+          "value": 2118,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Fort Lewis Express",
+          "value": 366,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Walmart",
+          "value": 101035,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Mercy / Three Springs",
+          "value": 6515,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Crestview / 160 W",
+          "value": 54634,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Main Ave Trolley",
+          "series": [
+            {
+              "period": "2019",
+              "value": 186786,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 113586,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 112426,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 134456,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 170746,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 167578,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 159594,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 125843,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Fort Lewis",
+          "series": [
+            {
+              "period": "2019",
+              "value": 89982,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 57212,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 55392,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 80220,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 88299,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 89262,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 86849,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 73935,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Special Service",
+          "series": [
+            {
+              "period": "2019",
+              "value": 916,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 448,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 167,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 620,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 990,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 1392,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 871,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 2118,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Fort Lewis Express",
+          "series": [
+            {
+              "period": "2019",
+              "value": 1126,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 497,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 557,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 577,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 549,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 604,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 559,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 366,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Walmart",
+          "series": [
+            {
+              "period": "2019",
+              "value": 92263,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 59416,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 72462,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 102092,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 121613,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 128355,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 130093,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 101035,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Crestview / 160 W",
+          "series": [
+            {
+              "period": "2022",
+              "value": 24400,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 43625,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 51456,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 59762,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 54634,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Mercy / Three Springs",
+          "series": [
+            {
+              "period": "2026",
+              "value": 6515,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TRAN-TRIPDELIVER",
@@ -3491,9 +4357,264 @@
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": false,
+      "frequency": "Every year",
+      "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
+      "description": "Dial-A-Ride (paratransit) trips delivered each year, broken down by rider type: under or over 60, and with or without a disability.",
+      "footnote": "The total is the official monthly trip count. The rider-type counts do not always add up to it (for example 2019 and 2020), so the segments are shown as reported. 2026 covers January–September only (year to date). No target has been set.",
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [
+        {
+          "period": "2019",
+          "value": 5540,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 2587,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 2249,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 2369,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 2479,
+          "status": null
+        },
+        {
+          "period": "2024",
+          "value": 3142,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 3455,
+          "status": null
+        },
+        {
+          "period": "2026",
+          "value": 3343,
+          "status": null,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Under 60",
+          "value": 139,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "60 and over",
+          "value": 2467,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Under 60, with a disability",
+          "value": 209,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "60 and over, with a disability",
+          "value": 576,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Under 60",
+          "series": [
+            {
+              "period": "2019",
+              "value": 93,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 697,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 522,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 300,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 134,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 151,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 206,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 139,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "60 and over",
+          "series": [
+            {
+              "period": "2019",
+              "value": 1577,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 1071,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 1112,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 1141,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 1119,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 1688,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 2120,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 2467,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "Under 60, with a disability",
+          "series": [
+            {
+              "period": "2019",
+              "value": 1444,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 945,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 602,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 506,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 588,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 524,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 599,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 209,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        },
+        {
+          "label": "60 and over, with a disability",
+          "series": [
+            {
+              "period": "2019",
+              "value": 964,
+              "status": null
+            },
+            {
+              "period": "2020",
+              "value": 520,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 489,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 716,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 772,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 872,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 442,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 576,
+              "status": null,
+              "note": "2026 covers January–September only (year to date)."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TRAN-VACRATE",
@@ -3580,17 +4701,116 @@
       "name": "IT Liaison Survey",
       "level": "Key Service",
       "attachTo": "ks7",
-      "unit": "number",
-      "decimals": 0,
+      "unit": "out of 5",
+      "decimals": 2,
       "higherIsBetter": true,
       "compareTo": "target",
       "drivesStatus": true,
+      "frequency": "Every year",
+      "owner": "IT Director",
+      "source": "IT Liaison Feedback Survey (Microsoft Forms)",
+      "description": "Average rating from City department liaisons on four questions about the IT Department, on a 1 to 5 scale: how well IT understands their business needs, how proactive it is, how well its services align with their goals, and how innovative it is.",
+      "footnote": "Overall is the average of all four questions. Responses are grouped by the year they were submitted; three test responses are excluded.",
       "gaugeKeyServices": [
         "ks7"
       ],
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [
+        {
+          "period": "2025",
+          "value": 3.83,
+          "status": null,
+          "note": "6 responses"
+        },
+        {
+          "period": "2026",
+          "value": 4.07,
+          "status": null,
+          "note": "Year to date: 17 responses through Sep 22, 2026"
+        }
+      ],
+      "segments": [
+        {
+          "label": "Understands business needs",
+          "value": 4.24
+        },
+        {
+          "label": "Proactive",
+          "value": 4.06
+        },
+        {
+          "label": "Aligned with business goals",
+          "value": 4.24
+        },
+        {
+          "label": "Innovative",
+          "value": 3.76
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Understands business needs",
+          "series": [
+            {
+              "period": "2025",
+              "value": 3.67,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 4.24,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Proactive",
+          "series": [
+            {
+              "period": "2025",
+              "value": 3.83,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 4.06,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Aligned with business goals",
+          "series": [
+            {
+              "period": "2025",
+              "value": 4.33,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 4.24,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Innovative",
+          "series": [
+            {
+              "period": "2025",
+              "value": 3.5,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 3.76,
+              "status": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "IT-APPTICKETS",
@@ -3599,12 +4819,87 @@
       "attachTo": "p32",
       "unit": "number",
       "decimals": 0,
-      "higherIsBetter": true,
+      "higherIsBetter": false,
       "compareTo": "target",
       "drivesStatus": false,
+      "frequency": "Every year",
+      "owner": "IT Director",
+      "source": "SysAid",
+      "description": "Number of help desk tickets filed under the Applications category in SysAid each year, split into incidents (something stopped working) and requests (asking for access, installs or changes).",
+      "footnote": "Counts tickets by the year they were opened. Automatic Workflow Processing tickets (P-card and Innoprise account setups) are excluded, and 2023 is left out because only 34 tickets were recorded. Largest SysAid sub-categories for 2025 and 2026: Microsoft Office Issues (453), CitySuite (388), Install/Update Program (325), Teams (162) and Adobe Acrobat (138); about 40% of tickets are filed as Other Issue or Request.",
       "status": null,
-      "pending": true,
-      "series": []
+      "onTrackWithinPct": 5,
+      "offTrackBeyondPct": 15,
+      "series": [
+        {
+          "period": "2024",
+          "value": 1919,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 1710,
+          "status": null
+        },
+        {
+          "period": "2026",
+          "value": 1353,
+          "status": null,
+          "note": "Year to date: tickets opened through Oct 21, 2026"
+        }
+      ],
+      "segments": [
+        {
+          "label": "Incident",
+          "value": 747
+        },
+        {
+          "label": "Request",
+          "value": 606
+        }
+      ],
+      "segmentSeries": [
+        {
+          "label": "Incident",
+          "series": [
+            {
+              "period": "2024",
+              "value": 1456,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 1176,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 747,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Request",
+          "series": [
+            {
+              "period": "2024",
+              "value": 463,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 534,
+              "status": null
+            },
+            {
+              "period": "2026",
+              "value": 606,
+              "status": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "IT-ADDRSLA",
