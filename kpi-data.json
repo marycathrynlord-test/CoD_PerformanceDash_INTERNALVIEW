@@ -1955,45 +1955,51 @@
       "gaugeKeyServices": [
         "ks11"
       ],
-      "status": null,
+      "status": "off-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 0,
       "series": [
         {
           "period": "2020",
           "value": 56,
+          "target": 32.8,
           "benchmark": 36.4,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2021",
           "value": 45,
+          "target": 32.8,
           "benchmark": 36.4,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2022",
           "value": 41,
+          "target": 32.8,
           "benchmark": 36.4,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2023",
           "value": 41,
+          "target": 32.8,
           "benchmark": 36.4,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2024",
           "value": 53,
+          "target": 32.8,
           "benchmark": 36.4,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2025",
           "value": 44,
+          "target": 32.8,
           "benchmark": 36.4,
-          "status": null
+          "status": "off-track"
         }
       ],
       "segments": []
@@ -2653,10 +2659,86 @@
       "description": "Average number of people walking and biking at each count location during the morning (7–9 am) and afternoon (4–6 pm) peak counts, added up across all locations. Higher numbers mean more people are walking and biking.",
       "footnote": "Total of average bike and pedestrian counts at 11 intersections, counted every two years. Shown from 2015, the first year all 11 locations were counted.",
       "status": null,
-      "segmentsOnly": true,
       "onTrackWithinPct": 5,
       "offTrackBeyondPct": 15,
-      "series": [],
+      "series": [
+        {
+          "period": "2015",
+          "value": 1115.285714,
+          "status": null
+        },
+        {
+          "period": "2017",
+          "value": 1066.119048,
+          "status": null
+        },
+        {
+          "period": "2019",
+          "value": 1126.444444,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 1093.441667,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 1015,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 1297,
+          "status": null
+        }
+      ],
+      "segments": [
+        {
+          "label": "E. 2nd Ave. and E. 15th St.",
+          "value": 233
+        },
+        {
+          "label": "E. 32nd St. and N. Main Ave.",
+          "value": 76
+        },
+        {
+          "label": "CR 250 and Florida Rd.",
+          "value": 75
+        },
+        {
+          "label": "E. 3rd Ave./E. 15th St./Florida Rd.",
+          "value": 155
+        },
+        {
+          "label": "W. 3rd St. & W. Park Ave.",
+          "value": 225
+        },
+        {
+          "label": "22nd St. and N. Main Ave.",
+          "value": 100
+        },
+        {
+          "label": "Camino del Rio and 9th St.",
+          "value": 129
+        },
+        {
+          "label": "Three Springs Blvd @ Hwy 160",
+          "value": 3
+        },
+        {
+          "label": "E. College Dr. and E. 8th Ave.",
+          "value": 118
+        },
+        {
+          "label": "HAWK @ W. 12th St. & Camino del Rio",
+          "value": 98
+        },
+        {
+          "label": "E. 8th Ave and E. 3rd St.",
+          "value": 85
+        }
+      ],
       "segmentSeries": [
         {
           "label": "E. 2nd Ave. and E. 15th St.",
@@ -3196,10 +3278,100 @@
       "description": "Parking citations closed without payment each year, by the reason they were closed (for example a warning, a registration issue or a meter malfunction).",
       "footnote": "\"Paid Wrong Plate (Mobile)\" was first tracked in 2025. 2026 is not yet entered. No target has been set.",
       "status": null,
-      "segmentsOnly": true,
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 0,
-      "series": [],
+      "series": [
+        {
+          "period": "2018",
+          "value": 2860,
+          "status": null
+        },
+        {
+          "period": "2019",
+          "value": 2824,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 2104,
+          "status": null
+        },
+        {
+          "period": "2021",
+          "value": 2723,
+          "status": null
+        },
+        {
+          "period": "2022",
+          "value": 2865,
+          "status": null
+        },
+        {
+          "period": "2023",
+          "value": 2533,
+          "status": null
+        },
+        {
+          "period": "2024",
+          "value": 2023,
+          "status": null
+        },
+        {
+          "period": "2025",
+          "value": 2356,
+          "status": null
+        }
+      ],
+      "segments": [
+        {
+          "label": "Warnings",
+          "value": 1136
+        },
+        {
+          "label": "City Admin Void",
+          "value": 73
+        },
+        {
+          "label": "Court Summons",
+          "value": 96
+        },
+        {
+          "label": "Equipment Malfunction",
+          "value": 138
+        },
+        {
+          "label": "Handicap Permit",
+          "value": 93
+        },
+        {
+          "label": "La Plata County Sheriff",
+          "value": 6
+        },
+        {
+          "label": "Meter Malfunction",
+          "value": 29
+        },
+        {
+          "label": "Officer/Operator Error",
+          "value": 235
+        },
+        {
+          "label": "Registration",
+          "value": 178
+        },
+        {
+          "label": "Review Outcome Dismissed",
+          "value": 269
+        },
+        {
+          "label": "Unable to Locate Owner",
+          "value": 0
+        },
+        {
+          "label": "Paid Wrong Plate Mobile",
+          "value": 103
+        }
+      ],
       "segmentSeries": [
         {
           "label": "Warnings",
@@ -3787,7 +3959,7 @@
       "gaugeKeyServices": [
         "ks14"
       ],
-      "status": null,
+      "status": "off-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 0,
       "series": [
@@ -3801,32 +3973,37 @@
         {
           "period": "2021",
           "value": 54,
+          "target": 19,
           "benchmark": 40.5,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2022",
           "value": 42,
+          "target": 49,
           "benchmark": 40.5,
-          "status": null
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 45,
+          "target": 38,
           "benchmark": 40.5,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2024",
           "value": 44,
+          "target": 41,
           "benchmark": 40.5,
-          "status": null
+          "status": "off-track"
         },
         {
           "period": "2025",
           "value": 51,
+          "target": 40,
           "benchmark": 40.5,
-          "status": null
+          "status": "off-track"
         }
       ],
       "segments": []
@@ -3893,11 +4070,71 @@
       "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
       "description": "Fare dollars collected on the fixed routes (Loop and Trolley) each year.",
       "footnote": "Target: higher than the previous year. At or above last year shows On Track; below it shows Off Track. Fixed routes only; Dial-A-Ride fares were not reported. August 2022 was fare-free, so no fares were collected that month. 2026 is January–September and is compared with the same months of 2025.",
-      "status": null,
-      "segmentsOnly": true,
+      "status": "off-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 0,
-      "series": [],
+      "series": [
+        {
+          "period": "2019",
+          "value": 128105.87,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 80719.67,
+          "target": 128105.87,
+          "status": "off-track"
+        },
+        {
+          "period": "2021",
+          "value": 94377.26,
+          "target": 80719.67,
+          "status": "on-track"
+        },
+        {
+          "period": "2022",
+          "value": 98713.46,
+          "target": 94377.26,
+          "status": "on-track"
+        },
+        {
+          "period": "2023",
+          "value": 97307.34,
+          "target": 98713.46,
+          "status": "off-track"
+        },
+        {
+          "period": "2024",
+          "value": 96487.15,
+          "target": 97307.34,
+          "status": "off-track"
+        },
+        {
+          "period": "2025",
+          "value": 88692.84,
+          "target": 96487.15,
+          "status": "off-track"
+        },
+        {
+          "period": "2026",
+          "value": 56579.67,
+          "target": 61226.87,
+          "status": "off-track",
+          "note": "2026 covers January–September only (year to date). Target is January–September 2025 ($61,227 in fares)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Loop",
+          "value": 34560.25,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Trolley",
+          "value": 22019.42,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
       "segmentSeries": [
         {
           "label": "Loop",
@@ -4135,11 +4372,81 @@
       "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
       "description": "Fixed-route rides (Loop and Trolley) each year by how the rider paid: bus pass, Fort Lewis College ID, free ride or cash fare.",
       "footnote": "Target: higher than the previous year. At or above last year shows On Track; below it shows Off Track. Fixed routes only; Dial-A-Ride payment data was not reported. August 2022 was fare-free. From June 2022 to March 2024 the Loop cash-fare counts are higher than the Loop rider counts, so 2022–2024 results are under review. 2026 is January–September and is compared with the same months of 2025.",
-      "status": null,
-      "segmentsOnly": true,
+      "status": "on-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 0,
-      "series": [],
+      "series": [
+        {
+          "period": "2019",
+          "value": 347053,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 216141,
+          "target": 347053,
+          "status": "off-track"
+        },
+        {
+          "period": "2021",
+          "value": 221963,
+          "target": 216141,
+          "status": "on-track"
+        },
+        {
+          "period": "2022",
+          "value": 387576,
+          "target": 221963,
+          "status": "on-track"
+        },
+        {
+          "period": "2023",
+          "value": 568442,
+          "target": 387576,
+          "status": "on-track"
+        },
+        {
+          "period": "2024",
+          "value": 499037,
+          "target": 568442,
+          "status": "off-track"
+        },
+        {
+          "period": "2025",
+          "value": 436514,
+          "target": 499037,
+          "status": "off-track"
+        },
+        {
+          "period": "2026",
+          "value": 344845,
+          "target": 340695,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date). Target is January–September 2025 (340,695 rides)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Bus pass",
+          "value": 118354,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Fort Lewis College",
+          "value": 15601,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Free ride",
+          "value": 149589,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Cash fare",
+          "value": 61301,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
       "segmentSeries": [
         {
           "label": "Bus pass",
@@ -4341,11 +4648,103 @@
       "source": "Durango Transit daily ridership counts by route (Route_Ridership.xlsx, Jan 2019–Sep 2026)",
       "description": "Rides on each Durango Transit fixed route each year, added up from daily counts. Higher numbers mean more people are riding.",
       "footnote": "Fixed routes only; paratransit and microtransit are counted in Total Transit Ridership. Target: at least 3% more rides than the previous year (the goal is 3–5% growth a year). Growth under 3% shows At Risk; fewer rides than the year before shows Off Track. Benchmark: the state target of 6% growth a year. Crestview / 160 W began in March 2022 and Mercy / Three Springs in August 2026. 2026 is January–September and is compared with the same months of 2025.",
-      "status": null,
-      "segmentsOnly": true,
+      "status": "on-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 3,
-      "series": [],
+      "series": [
+        {
+          "period": "2019",
+          "value": 371073,
+          "status": null
+        },
+        {
+          "period": "2020",
+          "value": 231159,
+          "target": 382205,
+          "benchmark": 393337,
+          "status": "off-track"
+        },
+        {
+          "period": "2021",
+          "value": 241004,
+          "target": 238094,
+          "benchmark": 245029,
+          "status": "on-track"
+        },
+        {
+          "period": "2022",
+          "value": 342365,
+          "target": 248234,
+          "benchmark": 255464,
+          "status": "on-track"
+        },
+        {
+          "period": "2023",
+          "value": 425822,
+          "target": 352636,
+          "benchmark": 362907,
+          "status": "on-track"
+        },
+        {
+          "period": "2024",
+          "value": 438647,
+          "target": 438597,
+          "benchmark": 451371,
+          "status": "on-track"
+        },
+        {
+          "period": "2025",
+          "value": 437728,
+          "target": 451806,
+          "benchmark": 464966,
+          "status": "off-track"
+        },
+        {
+          "period": "2026",
+          "value": 364446,
+          "target": 347302,
+          "benchmark": 357417,
+          "status": "on-track",
+          "note": "2026 covers January–September only (year to date). Target and benchmark compare with January–September 2025 (337,186 rides)."
+        }
+      ],
+      "segments": [
+        {
+          "label": "Main Ave Trolley",
+          "value": 125843,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Fort Lewis",
+          "value": 73935,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Special Service",
+          "value": 2118,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Fort Lewis Express",
+          "value": 366,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Walmart",
+          "value": 101035,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Mercy / Three Springs",
+          "value": 6515,
+          "note": "2026 covers January–September only (year to date)."
+        },
+        {
+          "label": "Crestview / 160 W",
+          "value": 54634,
+          "note": "2026 covers January–September only (year to date)."
+        }
+      ],
       "segmentSeries": [
         {
           "label": "Main Ave Trolley",
@@ -4635,7 +5034,7 @@
       "source": "Durango Transit monthly ridership report (Ridership_Demographics.xlsx, Jan 2019–Sep 2026)",
       "description": "Dial-A-Ride (paratransit) trips delivered each year, broken down by rider type: under or over 60, and with or without a disability.",
       "footnote": "Target: at least 3% more trips than the previous year (the goal is 3–5% growth a year). Growth under 3% shows At Risk; fewer trips than the year before shows Off Track. Benchmark: the previous year's trips. The total is the official monthly trip count; the rider-type counts do not always add up to it (for example 2019 and 2020), so the segments are shown as reported. 2026 is January–September and is compared with the same months of 2025.",
-      "status": null,
+      "status": "on-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 3,
       "series": [
@@ -4647,38 +5046,51 @@
         {
           "period": "2020",
           "value": 2587,
-          "status": null
+          "target": 5706,
+          "benchmark": 5540,
+          "status": "off-track"
         },
         {
           "period": "2021",
           "value": 2249,
-          "status": null
+          "target": 2665,
+          "benchmark": 2587,
+          "status": "off-track"
         },
         {
           "period": "2022",
           "value": 2369,
-          "status": null
+          "target": 2316,
+          "benchmark": 2249,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 2479,
-          "status": null
+          "target": 2440,
+          "benchmark": 2369,
+          "status": "on-track"
         },
         {
           "period": "2024",
           "value": 3142,
-          "status": null
+          "target": 2553,
+          "benchmark": 2479,
+          "status": "on-track"
         },
         {
           "period": "2025",
           "value": 3455,
-          "status": null
+          "target": 3236,
+          "benchmark": 3142,
+          "status": "on-track"
         },
         {
           "period": "2026",
           "value": 3343,
+          "target": 2788,
           "benchmark": 2707,
-          "status": null,
+          "status": "on-track",
           "note": "2026 covers January–September only (year to date). Target and benchmark compare with January–September 2025 (2,707 trips)."
         }
       ],
@@ -4976,7 +5388,7 @@
       "source": "Parking citation tracking, monthly (Citation_Metrics_and_Data_.xlsx, 2021–Sep 2026)",
       "description": "Citations paid each year as a share of citations issued that year.",
       "footnote": "Target: a higher payment rate than the previous year. At or above last year shows On Track; below it shows Off Track. A benchmark is still to be checked. Payments made in a year can include citations issued the year before, so the rate is approximate. 2026 is January–September.",
-      "status": null,
+      "status": "on-track",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 0,
       "series": [
@@ -4988,27 +5400,32 @@
         {
           "period": "2022",
           "value": 82.9,
-          "status": null
+          "target": 77.9,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 83.2,
-          "status": null
+          "target": 82.9,
+          "status": "on-track"
         },
         {
           "period": "2024",
           "value": 85.5,
-          "status": null
+          "target": 83.2,
+          "status": "on-track"
         },
         {
           "period": "2025",
           "value": 80.4,
-          "status": null
+          "target": 85.5,
+          "status": "off-track"
         },
         {
           "period": "2026",
           "value": 82.4,
-          "status": null,
+          "target": 80.4,
+          "status": "on-track",
           "note": "2026 covers January–September only (year to date)."
         }
       ],
@@ -5534,7 +5951,7 @@
       "gaugeKeyServices": [
         "ks14"
       ],
-      "status": null,
+      "status": "at-risk",
       "onTrackWithinPct": 0,
       "offTrackBeyondPct": 3,
       "series": [
@@ -5546,27 +5963,32 @@
         {
           "period": "2021",
           "value": 243989,
-          "status": null
+          "target": 239782,
+          "status": "on-track"
         },
         {
           "period": "2022",
           "value": 329743,
-          "status": null
+          "target": 251309,
+          "status": "on-track"
         },
         {
           "period": "2023",
           "value": 425244,
-          "status": null
+          "target": 339635,
+          "status": "on-track"
         },
         {
           "period": "2024",
           "value": 458061,
-          "status": null
+          "target": 438001,
+          "status": "on-track"
         },
         {
           "period": "2025",
           "value": 470023,
-          "status": null
+          "target": 471803,
+          "status": "at-risk"
         }
       ],
       "segments": [
@@ -5577,6 +5999,10 @@
         {
           "label": "Paratransit",
           "value": 3455
+        },
+        {
+          "label": "Other",
+          "value": 23293
         }
       ],
       "segmentSeries": [
@@ -5646,6 +6072,41 @@
             {
               "period": "2025",
               "value": 3455,
+              "status": null
+            }
+          ]
+        },
+        {
+          "label": "Other",
+          "series": [
+            {
+              "period": "2020",
+              "value": 1016,
+              "status": null
+            },
+            {
+              "period": "2021",
+              "value": 0,
+              "status": null
+            },
+            {
+              "period": "2022",
+              "value": 4491,
+              "status": null
+            },
+            {
+              "period": "2023",
+              "value": 1535,
+              "status": null
+            },
+            {
+              "period": "2024",
+              "value": 17161,
+              "status": null
+            },
+            {
+              "period": "2025",
+              "value": 23293,
               "status": null
             }
           ]
@@ -6450,8 +6911,8 @@
       },
       "g3": {
         "meeting": 2,
-        "withResult": 4,
-        "percent": 50,
+        "withResult": 5,
+        "percent": 40,
         "awaiting": [
           "911-STAFFING",
           "PD-CALLVOLUME",
@@ -6459,7 +6920,6 @@
           "PD-FATALCRASH",
           "PD-RESPONSETIME",
           "PD-TRAFFICINJURY",
-          "PD-VIOLENTPROPCRIME",
           "CLERK-SPECCOURT",
           "PR-PARKBUDGETACRE",
           "PR-OSBUDGET1000",
@@ -6492,14 +6952,12 @@
         ]
       },
       "g4": {
-        "meeting": 4,
-        "withResult": 4,
-        "percent": 100,
+        "meeting": 5,
+        "withResult": 6,
+        "percent": 83,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-CRASHDATA",
           "TRAN-DEPENDENCY",
-          "TRAN-TOTALRIDERSHIP",
           "IT-TIXSLA",
           "IT-LIAISONSURV"
         ],
@@ -6678,8 +7136,8 @@
       },
       "ob7": {
         "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "withResult": 2,
+        "percent": 50,
         "awaiting": [
           "911-STAFFING",
           "PD-CALLVOLUME",
@@ -6687,7 +7145,6 @@
           "PD-FATALCRASH",
           "PD-RESPONSETIME",
           "PD-TRAFFICINJURY",
-          "PD-VIOLENTPROPCRIME",
           "CLERK-SPECCOURT"
         ],
         "kpis": [
@@ -6738,14 +7195,12 @@
         ]
       },
       "ob10": {
-        "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-CRASHDATA",
-          "TRAN-DEPENDENCY",
-          "TRAN-TOTALRIDERSHIP"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
@@ -6793,14 +7248,12 @@
         ]
       },
       "ob15": {
-        "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-CRASHDATA",
-          "TRAN-DEPENDENCY",
-          "TRAN-TOTALRIDERSHIP"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
@@ -6977,8 +7430,8 @@
       },
       "ws4": {
         "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "withResult": 2,
+        "percent": 50,
         "awaiting": [
           "911-STAFFING",
           "PD-CALLVOLUME",
@@ -6986,7 +7439,6 @@
           "PD-FATALCRASH",
           "PD-RESPONSETIME",
           "PD-TRAFFICINJURY",
-          "PD-VIOLENTPROPCRIME",
           "CLERK-SPECCOURT"
         ],
         "kpis": [
@@ -7002,14 +7454,12 @@
         ]
       },
       "ws5": {
-        "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-CRASHDATA",
-          "TRAN-DEPENDENCY",
-          "TRAN-TOTALRIDERSHIP"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
@@ -7169,16 +7619,15 @@
       },
       "ks11": {
         "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "withResult": 2,
+        "percent": 50,
         "awaiting": [
           "911-STAFFING",
           "PD-CALLVOLUME",
           "PD-CRIMECLEARANCE",
           "PD-FATALCRASH",
           "PD-RESPONSETIME",
-          "PD-TRAFFICINJURY",
-          "PD-VIOLENTPROPCRIME"
+          "PD-TRAFFICINJURY"
         ],
         "kpis": [
           "911-DISPATCHTIME",
@@ -7210,14 +7659,12 @@
         "kpis": []
       },
       "ks14": {
-        "meeting": 1,
-        "withResult": 1,
-        "percent": 100,
+        "meeting": 2,
+        "withResult": 3,
+        "percent": 67,
         "awaiting": [
           "TRAN-BIKEANDSWLINFT",
-          "TRAN-CRASHDATA",
-          "TRAN-DEPENDENCY",
-          "TRAN-TOTALRIDERSHIP"
+          "TRAN-DEPENDENCY"
         ],
         "kpis": [
           "TRAN-BIKEANDSWLINFT",
