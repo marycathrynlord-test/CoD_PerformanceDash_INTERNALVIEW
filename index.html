@@ -1371,8 +1371,11 @@
   .pw-kpi-jump:hover{background:#00523F;}
   .pw-kpi-jump:focus-visible{outline:3px solid #1E1E1E; outline-offset:2px;}
   @media (max-width:760px){ .ks-kpis-head{padding:0 8px 2px;} }
-  .pw-center-small .pw-ks, .pw-center-small .pw-cap{display:none;}
-  .pw-center-small .pw-pct{font-size:24px;}
+  .pw-center-title{display:flex; flex-direction:column; align-items:center; gap:4px;}
+  .pw-ct-name{font-size:19px; font-weight:800; line-height:1.2; color:#006A53;}
+  .pw-ct-sub{font-size:13px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:#4B4B4B; line-height:1.3;}
+  .pw-center-small .pw-ct-name{font-size:16px;}
+  .pw-center-small .pw-ct-sub{font-size:12px;}
 </style>
 </head>
 <body>
@@ -2954,12 +2957,10 @@ function programWheelHTML(ks){
       <div class="pw-head"><span class="pw-title" id="pw-h-${ks.id}">Programs</span><span class="pw-hint">${plural(progs.length, 'Program')} in this Key Service. Select one to see its KPIs.</span></div>
       <div class="pw-stage">
         <svg class="pw-svg" aria-hidden="true" focusable="false"></svg>
-        <div class="pw-center${g.withResult ? '' : ' gauge-empty'}">
-          <div class="pw-center-read" role="img" aria-label="${escHTML(ks.name + ': ' + gaugeSpoken(g))}">
-            <div class="pw-ks" aria-hidden="true">Key Service</div>
-            ${gaugeSVG(g, 112)}
-            <div class="pw-pct" aria-hidden="true">${gaugePctText(g)}</div>
-            <div class="pw-cap" aria-hidden="true">${escHTML(gaugeCaption(g))}</div>
+        <div class="pw-center">
+          <div class="pw-center-title">
+            <span class="pw-ct-name">${escHTML(ks.name)}</span>
+            <span class="pw-ct-sub">Key Service Programs</span>
           </div>
           ${kpisFor(ks.id).length ? `<button type="button" class="pw-kpi-jump" data-ks-jump="${ks.id}" aria-label="View the ${plural(kpisFor(ks.id).length, 'Key Service KPI')} for ${escHTML(ks.name)}">View ${plural(kpisFor(ks.id).length, 'KPI')} <span aria-hidden="true">↑</span></button>` : ''}
         </div>
@@ -3075,8 +3076,6 @@ function layoutProgramWheels(scope){
     center.style.width = box + 'px'; center.style.height = boxH + 'px';
     center.style.left = (cx - box / 2) + 'px'; center.style.top = (cy - boxH / 2) + 'px';
     center.classList.toggle('pw-center-small', ringIn < 100);
-    const gs = center.querySelector('.gauge-svg');
-    if(gs){ const gw = Math.round(Math.min(96, ringIn * 0.82)); gs.setAttribute('width', gw); gs.setAttribute('height', Math.round(gw * 84 / 140)); }
 
     // Hover / focus: light up the slice, its leader and its label together.
     if(!pw.dataset.pwWired){
@@ -3121,14 +3120,14 @@ function keyServicesKpiHTML(keyServices, { context }){
             ${!wsMode && ws ? `<div class="sb-ks-sub">${escHTML(ws.name)}</div>` : ''}
           </div>
           <span class="sb-ks-right">
-            ${wsMode && programsUnderKeyService(ks.id).length ? '' : `<span class="sb-ks-score${g.withResult ? '' : ' gauge-empty'}" role="img" aria-label="${escHTML(gaugeSpoken(g))}">${gaugeSVG(g, 34)}<span aria-hidden="true"><strong>${gaugePctText(g)}</strong> ${escHTML(gaugeCaption(g))}</span></span>`}
+            ${`<span class="sb-ks-score${g.withResult ? '' : ' gauge-empty'}" role="img" aria-label="${escHTML(gaugeSpoken(g))}">${gaugeSVG(g, 34)}<span aria-hidden="true"><strong>${gaugePctText(g)}</strong> ${escHTML(gaugeCaption(g))}</span></span>`}
             ${live.length ? groupShareHTML('ks:' + ks.id) : ''}
           </span>
         </div>
         ${wsMode ? `<div class="ks-kpis" id="ks-kpis-${ks.id}" tabindex="-1" aria-labelledby="ks-kpis-h-${ks.id}">
           <div class="ks-kpis-head">
             <h4 class="ks-kpis-title" id="ks-kpis-h-${ks.id}">Key Service KPIs <span class="ks-kpis-count">(${kpis.length})</span></h4>
-            ${kpis.length ? `<p class="ks-kpis-sub">These measures drive the ${programsUnderKeyService(ks.id).length ? 'gauge in the center of the Programs ring below' : 'Key Service gauge'}${g.withResult < kpis.length ? (g.withResult ? `. The gauge counts only the ${g.withResult} with both a target and a result` : `. None has both a target and a result yet, so the gauge is empty`) : ''}.</p>` : ''}
+            ${kpis.length ? `<p class="ks-kpis-sub">These measures drive the Key Service gauge above${g.withResult < kpis.length ? (g.withResult ? `. The gauge counts only the ${g.withResult} with both a target and a result` : `. None has both a target and a result yet, so the gauge is empty`) : ''}.</p>` : ''}
           </div>` : ''}
         ${live.length ? `<div class="sb-list">
           <div class="sb-colheads" aria-hidden="true"><span>KPI</span><span>Latest</span><span>Compared with target</span><span>Trend</span><span>Status</span><span></span></div>
